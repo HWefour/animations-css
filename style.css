@@ -1,0 +1,29 @@
+
+.garen {
+    display: flex; 
+    justify-content: center;
+    
+}
+
+img:hover {
+    transform: scale(2);
+}
+
+img:active {
+    transform: rotate(90deg);
+}
+
+#img2:hover {
+    transform: skewX(40deg);
+}
+
+#img2:active {
+    transform: translateX(200px);
+}
+
+p {
+    transform: scale(0.5);
+    transform: translateX(20px);
+    transform: rotate(35deg) ;
+}
+
